@@ -18,7 +18,7 @@ Metamask (LTS)
 Truffle (v5.0.1)
 
 Instruction for DApp
-Now go to the ballot-app folder.
+Now go to the webstore folder.
 To install node modules execute npm install
 Start the Node.js server execute npm run dev
 This should start the front end of the application at localhost:3000
