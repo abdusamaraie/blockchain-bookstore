@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Store</title>
+ 
+    
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
+
+<link href="../static/css/login.css" type="text/css" rel="stylesheet" >
+<script type="text/javascript" src="../static/js/jQuery_v3.3.1.js"></script>
+    
+  </head>
+ 
+  <body>
+ 
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Web Store</h3>
+        <nav>
+          <ul class="nav nav-pills justify-content-end">
+            <li role="presentation" class="nav-item " ><a class="nav-link" href="/">Home</a></li>
+            <li role="presentation" class="nav-item"><a class="nav-link  active" href="#">Sign In</a></li>
+            <li role="presentation" class="nav-item "><a class="nav-link" href="/showSignUp">Sign Up</a></li>
+          </ul>
+        </nav>
+        
+      </div>
+ 
+      <div class="jumbotron">
+        <h1>Login Now</h1>
+        <form class="form-signin" action="/validateLogin" method="post">
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+         
+        <button id="btnSignIn" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+      </div>
+ 
+       
+ 
+      <footer class="footer">
+        <p>&copy; web Store</p>
+      </footer>
+ 
+    </div>
+  </body>
+</html>

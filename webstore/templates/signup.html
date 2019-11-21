@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Web Store</title>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
+
+<link href="../static/css/signup.css" type="text/css" rel="stylesheet" >
+<script type="text/javascript" src="../static/js/jQuery_v3.3.1.js"></script>
+
+  </head>
+ 
+  <body>
+ 
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Web store</h3>
+        <nav>
+                <ul class="nav nav-pills justify-content-end">
+                    <li role="presentation" class="nav-item "><a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li role="presentation" class="nav-item"><a class="nav-link" href="showSignin">Sign In</a>
+                    </li>
+                    <li role="presentation" class="nav-item"><a class="nav-link active" href="#">Sign Up</a>
+                    </li>
+                </ul>
+
+
+
+
+            </nav>
+        
+      </div>
+ 
+      <div class="jumbotron">
+        <h1>Start selling online</h1>
+        <form class="form-signin" action="/signUp" method="post">
+        <label for="inputName" class="sr-only">Name</label>
+        <input type="name" name="inputName" id="inputName" class="form-control" placeholder="Name" required autofocus>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+         
+        <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+      </form>
+      </div>
+ 
+ 
+        <footer class="footer">
+            <p>&copy; Web store 2019</p>
+        </footer>
+ 
+    </div>
+</body>
+ 
+</html>
