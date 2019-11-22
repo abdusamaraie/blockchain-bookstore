@@ -1,5 +1,5 @@
 
-*For part 1:*
+# For part 1:
 
 You will need to install dependances: Flask, sqlite, and python 3.
 
@@ -8,7 +8,7 @@ Then you run python3 app.py
 and visit http://127.0.0.1:5000
 
 
-*For part 2:*
+# For part 2:
 
 
 Dependancies:
